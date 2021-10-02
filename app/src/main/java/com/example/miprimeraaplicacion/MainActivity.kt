@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         var nombreUsuario : String = null.toString()
 
         nombreUsuario = cajaNombre.getText().toString()
-        mostrar.setText(nombreUsuario)
+        mostrar.setText("Hola " + nombreUsuario)
 
         //Toast.makeText(this,"si sirve",Toast.LENGTH_LONG).show()
     }
